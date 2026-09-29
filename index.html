@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#dce8d0">
+
+    <title>Our Days — A Family Journey</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================================
+         LOGIN
+    ========================================================== -->
+
+    <section id="loginScreen" class="login-screen">
+
+        <div class="login-card">
+
+            <div class="login-mark">✦</div>
+
+            <p class="eyebrow">A FAMILY JOURNAL</p>
+
+            <h1>Our Days</h1>
+
+            <p class="login-subtitle">
+                A little collection of the people, places,
+                memories, and moments that make us family.
+            </p>
+
+            <form id="loginForm">
+
+                <div class="input-group">
+                    <label for="username">Username</label>
+
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        placeholder="Enter username"
+                        autocomplete="username"
+                        required
+                    >
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter password"
+                        autocomplete="current-password"
+                        required
+                    >
+                </div>
+
+                <button
+                    type="submit"
+                    class="login-button"
+                >
+                    Enter our journal
+                    <span>→</span>
+                </button>
+
+                <p id="loginError" class="login-error"></p>
+
+            </form>
+
+            <p class="login-note">
+                Our little corner of the internet ♡
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         MAIN WEBSITE
+    ========================================================== -->
+
+    <div id="app" class="app">
+
+        <!-- =====================================================
+             HEADER
+        ====================================================== -->
+
+        <header class="site-header">
+
+            <div class="header-inner">
+
+                <a href="#home" class="brand">
+
+                    <span class="brand-symbol">✦</span>
+
+                    <span>
+                        <strong>Our Days</strong>
+                        <small>A Family Journey</small>
+                    </span>
+
+                </a>
+
+                <nav id="mainNav">
+
+                    <a href="#home" class="active">Home</a>
+                    <a href="#family">Family</a>
+                    <a href="#dogs">Our Dogs</a>
+                    <a href="#places">Places</a>
+                    <a href="#story">Our Story</a>
+                    <a href="#photos">Photos</a>
+                    <a href="#videos">Videos</a>
+
+                </nav>
+
+                <button
+                    id="menu"
+                    class="menu-button"
+                    type="button"
+                    aria-label="Open menu"
+                    aria-expanded="false"
+                >
+                    ☰
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <!-- =====================================================
+             MOBILE MENU
+        ====================================================== -->
+
+        <div id="mobileMenu" class="mobile-menu">
+
+            <a href="#home">Home</a>
+            <a href="#family">Family</a>
+            <a href="#dogs">Our Dogs</a>
+            <a href="#places">Places</a>
+            <a href="#story">Our Story</a>
+            <a href="#photos">Photos</a>
+            <a href="#videos">Videos</a>
+
+        </div>
+
+
+        <main>
+
+            <!-- =================================================
+                 HERO
+            ================================================== -->
+
+            <section id="home" class="hero page">
+
+                <div class="hero-copy">
+
+                    <div class="date">
+                        A JOURNAL OF OUR LITTLE ADVENTURES · 20XX — NOW
+                    </div>
+
+                    <h2>
+                        Life feels softer<br>
+                        <i>when we're together.</i>
+                    </h2>
+
+                    <p>
+                        Not a perfect record. Just pieces of the years
+                        we spent growing, going places, laughing too
+                        loudly, eating too much, and coming home.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a class="pill" href="#family">
+                            Meet the family
+                            <span>↓</span>
+                        </a>
+
+                        <a
+                            class="pill secondary-pill"
+                            href="#places"
+                        >
+                            Explore our places
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="sunny-photo hero-art">
+
+                    <img
+                        src="assets/images/family/Capture.jpg"
+                        alt="Our favorite family photo"
+                        class="hero-family-image"
+                    >
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 ABOUT
+            ================================================== -->
+
+            <section id="about" class="about-section page">
+
+                <div class="section-label">
+                    <span>01</span>
+                    <span>WHO WE ARE</span>
+                </div>
+
+                <div class="about-content">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            A LITTLE ABOUT US
+                        </p>
+
+                        <h2>
+                            The people behind<br>
+                            <i>the memories.</i>
+                        </h2>
+
+                    </div>
+
+                    <div class="about-text">
+
+                        <p>
+                            We're a family made up of different personalities,
+                            different stories, and somehow, a lot of shared
+                            memories.
+                        </p>
+
+                        <p>
+                            This website is our little place to keep those
+                            memories together — the ordinary days, special
+                            occasions, random adventures, and everything in
+                            between.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 FAMILY
+            ================================================== -->
+
+            <section id="family" class="family-section page">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <div class="section-label">
+                            <span>02</span>
+                            <span>THE FAMILY</span>
+                        </div>
+
+                        <h2>
+                            Meet the<br>
+                            <i>people we love.</i>
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        Everyone brings something different to the table.
+                        That's what makes this family ours.
+                    </p>
+
+                </div>
+
+                <div
+                    id="familyGrid"
+                    class="people-grid"
+                ></div>
+
+            </section>
+
+
+            <!-- =================================================
+                 DOGS
+            ================================================== -->
+
+            <section id="dogs" class="dogs-section page">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <div class="section-label">
+                            <span>03</span>
+                            <span>OUR DOGS</span>
+                        </div>
+
+                        <h2>
+                            The other<br>
+                            <i>members of the family.</i>
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        Four paws, wagging tails, and somehow they
+                        always manage to become the center of attention.
+                    </p>
+
+                </div>
+
+                <div
+                    id="dogsGrid"
+                    class="people-grid dog-grid"
+                ></div>
+
+            </section>
+
+
+            <!-- =================================================
+                 PLACES
+            ================================================== -->
+
+            <section id="places" class="places-section page">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <div class="section-label">
+                            <span>04</span>
+                            <span>PLACES</span>
+                        </div>
+
+                        <h2>
+                            Places we've<br>
+                            <i>been together.</i>
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        Some trips were planned. Some just happened.
+                        We remember them all.
+                    </p>
+
+                </div>
+
+                <div
+                    id="placesGrid"
+                    class="places"
+                ></div>
+
+            </section>
+
+
+            <!-- =================================================
+                 OUR STORY
+            ================================================== -->
+
+            <section id="story" class="story-section page">
+
+                <div class="section-label">
+                    <span>05</span>
+                    <span>OUR STORY</span>
+                </div>
+
+                <div class="story-intro">
+
+                    <h2>
+                        A timeline of<br>
+                        <i>little moments.</i>
+                    </h2>
+
+                    <p>
+                        The years pass quickly. These are some of the
+                        moments we want to remember.
+                    </p>
+
+                </div>
+
+                <div
+                    id="timeline"
+                    class="timeline"
+                ></div>
+
+            </section>
+
+
+            <!-- =================================================
+                 PHOTOS
+            ================================================== -->
+
+            <section id="photos" class="photos-section page">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <div class="section-label">
+                            <span>06</span>
+                            <span>PHOTOS</span>
+                        </div>
+
+                        <h2>
+                            Moments worth<br>
+                            <i>keeping.</i>
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        A collection of snapshots from our everyday
+                        lives and the days we got to spend together.
+                    </p>
+
+                </div>
+
+                <div
+                    class="gallery-tabs"
+                    role="tablist"
+                    aria-label="Photo categories"
+                >
+
+                    <button
+                        class="gallery-tab active"
+                        type="button"
+                        data-gallery="family"
+                    >
+                        Family
+                    </button>
+
+                    <button
+                        class="gallery-tab"
+                        type="button"
+                        data-gallery="lucky"
+                    >
+                        Lucky
+                    </button>
+
+                    <button
+                        class="gallery-tab"
+                        type="button"
+                        data-gallery="millicent"
+                    >
+                        Millicent
+                    </button>
+
+                    <button
+                        class="gallery-tab"
+                        type="button"
+                        data-gallery="kc"
+                    >
+                        KC
+                    </button>
+
+                    <button
+                        class="gallery-tab"
+                        type="button"
+                        data-gallery="mama"
+                    >
+                        Mama
+                    </button>
+
+                    <button
+                        class="gallery-tab"
+                        type="button"
+                        data-gallery="ally"
+                    >
+                        Ally
+                    </button>
+
+                    <button
+                        class="gallery-tab"
+                        type="button"
+                        data-gallery="real-teng"
+                    >
+                        Real-Teng
+                    </button>
+
+                </div>
+
+                <div
+                    id="galleryGrid"
+                    class="gallery"
+                ></div>
+
+            </section>
+
+
+            <!-- =================================================
+                 VIDEOS
+            ================================================== -->
+
+            <section id="videos" class="videos-section page">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <div class="section-label">
+                            <span>07</span>
+                            <span>VIDEOS</span>
+                        </div>
+
+                        <h2>
+                            Moving<br>
+                            <i>memories.</i>
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        Because some memories are better when you can
+                        hear the laughter and see everyone moving around.
+                    </p>
+
+                </div>
+
+                <div
+                    id="videoGrid"
+                    class="video-grid"
+                ></div>
+
+            </section>
+
+
+            <!-- =================================================
+                 CLOSING
+            ================================================== -->
+
+            <section class="closing-section page">
+
+                <div class="closing-inner">
+
+                    <span class="closing-symbol">✦</span>
+
+                    <p class="eyebrow">
+                        UNTIL THE NEXT ADVENTURE
+                    </p>
+
+                    <h2>
+                        Wherever we go,<br>
+                        <i>we'll always have home.</i>
+                    </h2>
+
+                    <p>
+                        Here's to more ordinary days,
+                        unexpected trips, loud dinners,
+                        inside jokes, and memories we haven't
+                        made yet.
+                    </p>
+
+                    <a href="#home" class="pill">
+                        Back to the beginning
+                        <span>↑</span>
+                    </a>
+
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <!-- =====================================================
+             FOOTER
+        ====================================================== -->
+
+        <footer class="site-footer">
+
+            <div class="footer-inner">
+
+                <div class="footer-brand">
+
+                    <span class="brand-symbol">✦</span>
+
+                    <div>
+                        <strong>Our Days</strong>
+                        <small>A Family Journey</small>
+                    </div>
+
+                </div>
+
+                <p>
+                    Made with love, memories, and a lot of photos.
+                </p>
+
+                <span>
+                    © 20XX Our Family
+                </span>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+
+    <!-- =========================================================
+         MEMBER / PLACE MODAL
+    ========================================================== -->
+
+    <div
+        id="modal"
+        aria-hidden="true"
+    >
+
+        <div class="shade"></div>
+
+        <article
+            class="modal-card"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Memory details"
+        >
+
+            <button
+                id="close"
+                type="button"
+                aria-label="Close"
+            >
+                ×
+            </button>
+
+            <div id="modalContent"></div>
+
+        </article>
+
+    </div>
+
+
+    <!-- =========================================================
+         FULL SCREEN IMAGE LIGHTBOX
+    ========================================================== -->
+
+    <div
+        id="lightbox"
+        class="lightbox"
+        aria-hidden="true"
+    >
+
+        <div class="lightbox-shade"></div>
+
+        <button
+            id="lightboxClose"
+            class="lightbox-close"
+            type="button"
+            aria-label="Close image"
+        >
+            ×
+        </button>
+
+        <div class="lightbox-photo">
+
+            <div class="lightbox-frame">
+
+                <img
+                    id="lightboxImage"
+                    src=""
+                    alt="Family memory"
+                >
+
+            </div>
+
+            <p id="lightboxCaption">
+                Family memory
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         SCRIPT
+    ========================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
